@@ -123,6 +123,7 @@ mcols(genesGR) <- mcols(genesGR) %>%
   set_rownames(.$gene_id) %>%
   as("DataFrame")
 
+#The cell information and raw UMI count can be downloaded from [GSE165897](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165897). 
 
 ## -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 cellInfor <- read_tsv(gzfile(here::here("GSE165897_cellInfo_HGSOC.tsv.gz")))
