@@ -1,0 +1,4 @@
+*.Rmd
+*.Rproj
+.Rproj.user/*
+GSE165897_UMIcounts_HGSOC.tsv.gz
